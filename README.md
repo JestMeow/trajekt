@@ -29,11 +29,14 @@ Too lazy to write stuff here so I'll write some stuff later.
          - ShowParticles: false
 - Detect some player actions by applying a tag "?" + <action>.
 - - Detectable actions:
-  - isOnGround
-  - isInWater
-  - isSprinting
-  - isSleeping
-  - isSwimming
+  - isClimbing *//if the player is climbing a ladder, a vine, or something similar*
+  - isOnGround *//if the player is on the ground*
+  - isInWater *//if the player is inside a water*
+  - isSleeping *//if the player is sleeping*
+  - isSneaking *//if the player is sneaking/crouching*
+  - isSprinting *//if the player is sprinting*
+  - isSwimming *//if the player is swimming*
+  - isValid *//if the player is valid*
 - Get an entity's position in scoreboard objective form by giving it tag "?pos".
 - - Scoreboard objective for getting an entity's position is "?pos.x", "?pos.y", "?pos.z".
 - Scoreboard objectives that can modify the position of an entity.
@@ -46,5 +49,4 @@ Too lazy to write stuff here so I'll write some stuff later.
   - - rpos.x
     - rpos.y
     - rpos.z
-- 
 
