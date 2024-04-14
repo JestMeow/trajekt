@@ -18,5 +18,14 @@ Too lazy to write stuff here so I'll write some stuff later.
     - sqrt *//square root*
     - cbe *//cube*
     - cbrt *//cube root*
+- Apply an effect to a target with specific time value.
+- - How to use:
+  - - 1) Give a scoreboard objective with a name equal to an effect indentifier to an entity.
+      2) Set the value to 1<duration(ticks)><amplifier><showParticle?> (bare with me). Where duration is 4 digits, amplifier is 3 digits, and showParticle is 1 digit.
+      3) Example: "jump_boost 124000010"
+         - Effect: Jump Boost
+         - Duration: 2400 ticks
+         - Amplifier: 1
+         - ShowParticles: false
 - Get an entity's position in scoreboard objective form by giving it tag "?pos".
 - - Scoreboard objective for getting an entity's position is "?pos.x", "?pos.y", "?pos.z".
