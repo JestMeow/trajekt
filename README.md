@@ -18,7 +18,9 @@ Too lazy to write stuff here so I'll write some stuff later.
     - sqrt *//square root*
     - cbe *//cube*
     - cbrt *//cube root*
-- Apply an effect to a target with specific time value.
+  - Tip:
+  - - To get a list of available functions, tag yourself with a question mark symbol ("?").
+- Apply an effect to a target with specified time value in ticks.
 - - How to use:
   - - 1) Give a scoreboard objective with a name equal to an effect indentifier to an entity.
       2) Set the value to 1<duration(ticks)><amplifier><showParticle?> (bare with me). Where duration is 4 digits, amplifier is 3 digits, and showParticle is 1 digit.
@@ -39,6 +41,10 @@ Too lazy to write stuff here so I'll write some stuff later.
   - isValid *//if the player is valid*
 - Get an entity's position in scoreboard objective form by giving it tag "?pos".
 - - Scoreboard objective for getting an entity's position is "?pos.x", "?pos.y", "?pos.z".
+- Get an entity's **head** position in scoreboard objective form by giving it tag "?head".
+- - Scoreboard objective for getting an entity's position is "?head.x", "?head.y", "?head.z".
+- Get an entity's velocity in scoreboard objective form by giving it tag "?velocity".
+- - Scoreboard objective for getting an entity's position is "?v.x", "?v.y", "?v.z".
 - Scoreboard objectives that can modify the position of an entity.
 - - **Objectives:**
   - Absolute position:
@@ -49,4 +55,11 @@ Too lazy to write stuff here so I'll write some stuff later.
   - - rpos.x
     - rpos.y
     - rpos.z
-
+- Scoreboard objectives for modifying the impulse vector of an entity **(Doesn't work on players)**
+- - **Objectives:**
+  - impulse.x
+  - impulse.y
+  - impulse.z
+- Canceling a player's ability to break blocks by giving them tag "!breakBlocks"
+**Notes**
+- If something doesn't work, enable content log file and content log GUI to find the answer to your problem.
