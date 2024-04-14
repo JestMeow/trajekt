@@ -23,13 +23,13 @@ Too lazy to write stuff here so I'll write some stuff later.
 - Apply an effect to a target with specified time value in ticks.
 - - How to use:
   - - 1) Give a scoreboard objective with a name equal to an effect indentifier to an entity.
-      2) Set the value to 1<duration(ticks)><amplifier><showParticle?> (bare with me). Where duration is 4 digits, amplifier is 3 digits, and showParticle is 1 digit.
+      2) Set the value to 1\<duration(ticks)\>\<amplifier\>\<showParticle?\> (bare with me). Where duration is 4 digits, amplifier is 3 digits, and showParticle is 1 digit.
       3) Example: "jump_boost 124000010"
          - Effect: Jump Boost
          - Duration: 2400 ticks
          - Amplifier: 1
          - ShowParticles: false
-- Detect some player actions by applying a tag "?" + <action>.
+- Detect some player actions by applying a tag "?" + \<action\>.
 - - Detectable actions:
   - isClimbing *//if the player is climbing a ladder, a vine, or something similar*
   - isOnGround *//if the player is on the ground*
