@@ -27,5 +27,24 @@ Too lazy to write stuff here so I'll write some stuff later.
          - Duration: 2400 ticks
          - Amplifier: 1
          - ShowParticles: false
+- Detect some player actions by applying a tag "?" + <action>.
+- - Detectable actions:
+  - isOnGround
+  - isInWater
+  - isSprinting
+  - isSleeping
+  - isSwimming
 - Get an entity's position in scoreboard objective form by giving it tag "?pos".
 - - Scoreboard objective for getting an entity's position is "?pos.x", "?pos.y", "?pos.z".
+- Scoreboard objectives that can modify the position of an entity.
+- - **Objectives:**
+  - Absolute position:
+  - - pos.x
+    - pos.y
+    - pos.z
+  - Relative position:
+  - - rpos.x
+    - rpos.y
+    - rpos.z
+- 
+
