@@ -50,7 +50,7 @@ let impulsex = world.scoreboard.getObjective("impulse.x");
 let impulsey = world.scoreboard.getObjective("impulse.y");
 let impulsez = world.scoreboard.getObjective("impulse.z");
 
-const effectsID = ["speed", "jump_boost", "invisibility"];
+const effectsID = ["absorption", "bad_omen", "blindness", "conduit_power", "fatal_poison", "fire_resistance", "haste", "health_boost", "village_hero", "hunger", "instant_damage", "instant_health", "invisibility", "jump_boost", "levitation", "mining_fatigue", "nausea", "night_vision", "poison", "regeneration", "resistance", "slowness", "speed", "saturation", "strenght", "water_breathing", "weakness", "wither"];
 
 function rpos(target, obj, str1, str2) {
     if (obj.hasParticipant(target) && !obj.getScore(target) == 0) target.runCommandAsync("tp @s " + str1 + obj.getScore(target) / 1000 + str2), obj.setScore(target, 0);
