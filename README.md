@@ -1,5 +1,6 @@
 # trajekt
 Scripts for Minecraft: Bedrock Edition
+Minecraft version this addon is for is **Minecraft 1.20.70**
 
 Too lazy to write stuff here so I'll write some stuff later.
 
