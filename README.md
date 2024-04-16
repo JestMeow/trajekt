@@ -6,6 +6,7 @@ Too lazy to write stuff here so I'll write some stuff later.
 
 **Features:**
 - Math functions for scoreboard. Can be done by tagging a target "math:\<functionName\>(\<scoreboardObjectiveName\>)".
+- Example: "math:sqrt(money)" *//square root the value of "money" objective*
 - - Available functions are:
   - - sin *//sine*
     - asin *//arcsine*
