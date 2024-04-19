@@ -49,6 +49,11 @@ system.runInterval(() => {
                 world.scoreboard.getObjective(tag).setScore(entity, Math.atan((world.scoreboard.getObjective(tag).getScore(entity) * 180) / (1000 * Math.PI)) * 1000);
                 entity.removeTag("math:atan(" + world.scoreboard.getObjective(tag).displayName + ")");
             }
+            //exp
+            if (world.scoreboard.getObjective(tag) && entity.hasTag("math:exp(" + world.scoreboard.getObjective(tag).displayName + ")")) {
+                world.scoreboard.getObjective(tag).setScore(entity, Math.exp(world.scoreboard.getObjective(tag).getScore(entity) / 1000, 2) * 1000);
+                entity.removeTag("math:exp(" + world.scoreboard.getObjective(tag).displayName + ")");
+            }
             //log
             if (world.scoreboard.getObjective(tag) && entity.hasTag("math:log(" + world.scoreboard.getObjective(tag).displayName + ")")) {
                 world.scoreboard.getObjective(tag).setScore(entity, Math.log(world.scoreboard.getObjective(tag).getScore(entity) / 1000) * 1000);
