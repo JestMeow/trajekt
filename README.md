@@ -14,6 +14,7 @@ Too lazy to write stuff here so I'll write some stuff later.
     - acos *//arccosine*
     - tan *//tangent*
     - atan *//arctangent*
+    - exp *//exponential*
     - log *//natural logarithm*
     - log10 *//base 10 logarithm*
     - sqr *//square*
